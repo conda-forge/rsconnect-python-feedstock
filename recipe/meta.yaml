@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/rstudio/rsconnect-python/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 986b717c398e6c3989cb69ba9b3ccceb04d186a3807704039e2f1ec566a2aa5e
+  sha256: dd5fc36ce608cc9f8b924274a582152a1cc63cb5215e5b93533b69ec736c5b96
 
 build:
   noarch: python
