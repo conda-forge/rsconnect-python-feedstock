@@ -43,6 +43,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - aronatkins
     - mmarchetti
     - tdstein
     - dbkegley
