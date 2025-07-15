@@ -146,6 +146,6 @@ Feedstock Maintainers
 * [@amol-](https://github.com/amol-/)
 * [@aronatkins](https://github.com/aronatkins/)
 * [@dbkegley](https://github.com/dbkegley/)
-* [@mmarchetti](https://github.com/mmarchetti/)
+* [@edavidaja](https://github.com/edavidaja/)
 * [@tdstein](https://github.com/tdstein/)
 
