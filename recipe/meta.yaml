@@ -1,13 +1,13 @@
 {% set name = "rsconnect-python" %}
-{% set version = "1.31.1" %}
+{% set version = "1.32.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rsconnect_python-{{ version }}.tar.gz
-  sha256: 5dabceef3bfd85481f5d419f05a41d299691a4ee748738fe6f6db8943f3ec284
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/rsconnect_python-{{ version }}.tar.gz
+  sha256: 32694f63bbb0502a13a9505e4695eda1716b0593c3a6d0613d6dcae82ce51d9a
 
 build:
   noarch: python
