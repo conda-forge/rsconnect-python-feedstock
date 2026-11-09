@@ -1,5 +1,5 @@
 {% set name = "rsconnect-python" %}
-{% set version = "1.31.1" %}
+{% set version = "1.33.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rsconnect_python-{{ version }}.tar.gz
-  sha256: 5dabceef3bfd85481f5d419f05a41d299691a4ee748738fe6f6db8943f3ec284
+  sha256: c1d8867ee5147c7505dc5533b03828c93b7d40092847c3f3226ae735fa4c76f0
 
 build:
   noarch: python
@@ -25,10 +25,9 @@ requirements:
     - python >={{ python_min }}
     - click >=8.0.0
     - packaging >=20.0
-    - pip >=10.0.0  # rsconnect-python invokes pip as a subprocess
-    - pyjwt >=2.4.0
+    - pip >=20.3  # rsconnect-python invokes pip as a subprocess
+    - pyjwt >=2.15.0
     - semver >=2.0.0,<4.0.0
-    - toml >=0.10
     - typing_extensions >=4.8.0
     - uv >=0.9.0
 test:
